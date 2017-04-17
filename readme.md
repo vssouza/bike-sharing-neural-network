@@ -696,7 +696,7 @@ _ = ax.set_xticklabels(dates[12::24], rotation=45)
 ![png](output-images/output_24_0.png)
 
 
-## Thinking about our results.
+## Thinking about our results
  
 How well does the model predict the data? Where does it fail? Why does it fail where it does?
 
