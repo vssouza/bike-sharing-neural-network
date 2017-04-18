@@ -1,5 +1,5 @@
 
-# Your first neural network
+# Bike Sharing Neural Network
 
 In this project, you'll build your first neural network and use it to predict daily bike rental ridership. We've provided some of the code, but left the implementation of the neural network up to you (for the most part). After you've submitted this project, feel free to explore the data and the model more.
 
@@ -184,7 +184,7 @@ rides[:24*10].plot(x='dteday', y='cnt')
 
 
 
-![png](output_6_1.png)
+![png](readme-images/output_6_1.png)
 
 
 ### Dummy variables
@@ -668,7 +668,7 @@ _ = plt.ylim()
 ```
 
 
-![png](output_22_0.png)
+![png](readme-images/output_22_0.png)
 
 
 ## Check out your predictions
@@ -693,7 +693,7 @@ _ = ax.set_xticklabels(dates[12::24], rotation=45)
 ```
 
 
-![png](output_24_0.png)
+![png](readme-images/output_24_0.png)
 
 
 ## Thinking about your results
