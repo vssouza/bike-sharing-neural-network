@@ -744,3 +744,7 @@ hidden_nodes = 14
 output_nodes = 1
 ```
 We also took care to keep our validation loss between 0.20 and 0.15 to make our data fit well without excessive execution.
+
+## Conda Environment Generation
+
+There is a file named bike-sharing-nn-env.yml which contains the Anaconda environment configuration (the package list). You can generate your enviroment running conda create command and providing this file as parameter.
