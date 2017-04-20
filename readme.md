@@ -758,6 +758,12 @@ Or if you need to import it to a previously created environment, you can use the
 conda install --file bike-sharing-nn-env.yml
 ```
 
+After generating the environment, remember to activate it using the command:
+
+`activate bsnn`
+
+## Contact
+
 You are welcome to contact me with suggestions, considerations, fixes or any thoughts.
 
 *Vinícius de Souza Yamauchi - vs.souza@gmail.com*
