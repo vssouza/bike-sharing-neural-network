@@ -747,4 +747,17 @@ We also took care to keep our validation loss between 0.20 and 0.15 to make our 
 
 ## Conda Environment Generation
 
-There is a file named **bike-sharing-nn-env.yml** which contains the Anaconda environment configuration (the package list). You can generate your enviroment running **conda create** command and providing this file as parameter.
+There is a file named **bike-sharing-nn-env.yml** which contains the Anaconda environment configuration (the package list). You can generate your enviroment running **conda create** command and providing this file as parameter:
+
+```
+conda create -n bsnn --file bike-sharing-nn-env.yml python=3
+```
+Or if you need to import it to a previously created environment, you can use the command:
+
+```
+conda install --file bike-sharing-nn-env.yml
+```
+
+You are welcome to contact me with suggestions, considerations, fixes or any thoughts.
+
+*Vinícius de Souza Yamauchi - vs.souza@gmail.com*
